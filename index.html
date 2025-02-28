@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dynamic Dashboard</h1>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </header>
+        <section class="dashboard">
+            <div class="card">
+                <h2>Live Time</h2>
+                <p id="liveTime"></p>
+            </div>
+            <div class="card">
+                <h2>Random Quote</h2>
+                <p id="randomQuote">Click below for a quote!</p>
+                <button onclick="generateQuote()">Get Quote</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
